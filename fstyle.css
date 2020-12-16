@@ -17,7 +17,7 @@ nav {
     justify-content: space-evenly;
     margin-top: 10px;
     } 
-div { padding: 10px; 
+nav div { padding: 10px; 
     margin: 10px; 
     border-style: solid;
     border-color: rgb(5, 2, 167);
@@ -37,13 +37,22 @@ main { display: flex;
 main section { display: flex;
                 width:90%; }    
 main section img { width:100%;}
-main article { background-color: aqua;
-    width:23%; 
+main article { width:23%; 
                margin: 30px;}
 main figure { background-color: beige;
      display: center;
                 width: 12.5%;
-                margin: 5px;}   
+                margin: 5px;} 
+main div {padding: 10px;
+    margin: 10px; 
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    text-align: center;
+    }               
+article { color: bisque;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;}                  
 footer {background-color: rgb(1, 21, 58);
         Position: absollute;
         bottom: 0;
@@ -58,6 +67,6 @@ footer div { padding: 10px;
     text-align: center;
     }                                  
 h1 { color:white;}
-h3 { color: rgb(114, 240, 240);
+p { color: rgb(114, 240, 240);
     font-family: 'Times New Roman', Times, serif;
      font-size: smaller;}
